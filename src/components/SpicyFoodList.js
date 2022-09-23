@@ -9,7 +9,7 @@ function SpicyFoodList() {
 
   function handleAddFood() {
     const newFood = getNewRandomSpicyFood();
-    const foodArray = [...foods, newFood];
+    const newFoodsArray = [...foods, newFood];
     setFoods(newFoodsArray);
   }
 
